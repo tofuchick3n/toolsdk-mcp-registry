@@ -12,7 +12,16 @@
     {
       "type": "streamable-http",
       "url": "https://there-there.app/mcp",
-      "auth": { "type": "oauth2", "scopes": ["mcp:read", "mcp:tickets:manage", "mcp:tickets:drafts", "mcp:tickets:reply", "mcp:knowledge:write"] }
+      "auth": {
+        "type": "oauth2",
+        "scopes": [
+          "mcp:read",
+          "mcp:tickets:manage",
+          "mcp:tickets:drafts",
+          "mcp:tickets:reply",
+          "mcp:knowledge:write"
+        ]
+      }
     }
   ]
 }
