@@ -9,6 +9,10 @@
   "author": "Oh Dear",
   "env": {},
   "remotes": [
-    { "type": "streamable-http", "url": "https://ohdear.app/mcp", "auth": { "type": "oauth2", "scopes": ["mcp:read", "mcp:write"] } }
+    {
+      "type": "streamable-http",
+      "url": "https://ohdear.app/mcp",
+      "auth": { "type": "oauth2", "scopes": ["mcp:read", "mcp:write"] }
+    }
   ]
 }
